@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* CSS Document */
+  ul {
+font-family: Arial, Verdana;
+font-size: 14px;
+margin: 0;
+padding: 2;
+list-style: none;
+}
+ul li {
+display: block;
+position: relative;
+float: left;
+}
+li ul {
+display: none;
+}
+ul li a {
+display: block;
+text-decoration: none;
+color: #ffffff;
+border-top: 1px solid #none;
+padding: 5px 15px 5px 15px;
+background: none;
+margin-left: 1px;
+white-space: nowrap;
+}
+ul li a:hover {
+background: #090;
+}
+li:hover ul {
+display: block;
+position: absolute;
+}
+li:hover li {
+float: none;
+font-size: 11px;
+}
+li:hover a {
+background: #none;
+}
+li:hover li a:hover {
+background: #none;
+}
+a:link, a:visited { color: #B9C322; text-decoration: none; font-weight: normal; } 
+a:active, a:hover { color: #FFCC00; text-decoration: }
+
+#main-body
+{
+	float:none;
+	padding:0px;
+	margin:0 auto;
+	width:1000px;
+	height:1100px;
+	background:#090
+}
+#header
+{
+	float:none;
+	padding:0px;
+	margin:0 auto;
+	height:100px;
+	width:1000px;
+}
+#Links
+{
+	float:none;
+	padding:0px;
+	margin:0 auto;
+	height:48px;
+	width:1000px;
+	background:url(../images/nav_bar.png)
+}
+#img-banner
+{
+	float:none;
+	padding:0px;
+	margin:0 auto;
+	height:250px;
+	width:1000px;
+}
+#other-links
+{
+	float:left;
+	margin:0 auto;
+	padding:0px;
+	height:700px;
+	width:200px;
+}
+#main-content
+{
+	float:right;
+	padding:0px;
+	margin:0 auto;
+	width:780px;
+	height:700px;
+}
+#advert
+{
+	float:right;
+	padding:0px;
+	margin:0 auto;
+	height:500px;
+	width:200px;
+	position:absolute;
+	left: 970px;
+	top: 430px;
+}
+#footer
+{
+	float:left;
+	padding:0px;
+	margin:0 auto;
+	width:1000px;
+	height:48px;
+	background:url(../images/nav_bar.png)
+}
+#mssn-logo
+{
+	float:left;
+	padding:0px;
+	margin:0 auto;
+	width:100px;
+	height:100px;
+}
+#lasu-logo
+{
+	float:right;
+	padding:0px;
+	margin:0 auto;
+	width:100px;
+	height:100px;
+	position:absolute;
+	left: 1070px;
+	top: 19px;
+}
+#main-text
+{
+	float:none;
+	padding:0px;
+	margin:0 auto;
+	width:1000px;
+	height:100px;
+}
+#main-body2
+{
+	float:none;
+	padding:0px;
+	margin:0 auto;
+	width:1000px;
+	height:1500px;
+	background:#090
+}
+#main-content2
+{
+	float:right;
+	padding:0px;
+	margin:0 auto;
+	width:780px;
+	height:1100px;
+}
